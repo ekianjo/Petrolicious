@@ -1,3 +1,19 @@
+import urllib
+import youtube-dl
+
+
+    
+def get_logo():
+  try:
+    logo=urllib('http://static.petrolicious.com/petrolicious/images/about_horizontallogo.png')
+    #save logo locally
+  
+  except:
+    print 'could not get logo'
+
+
+
+    
 #Start with simple application
 
 #get logo online. Do not distribute it.
@@ -6,6 +22,7 @@
 #use pygame or mplayer to play music in menu - need to choose music.
 
 #0. Please wait message : caching all info retrieved online. Can take a while - play music in parallel
+
 #1. Logo
 #2. fade in tagline below Logo
 #3. fade out and fade on interface - it displays the liat of latest videos, along with small screenshot. 'Play' button appears on the right of videos already downloaded
