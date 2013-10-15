@@ -41,6 +41,8 @@ def get_logo():
 #11. then starts video in full screen
 #display list of latest videos. 
 
+#https://github.com/np1/pafy to use
+
 #controls are simple and intuitive - keyboard based
 #use ytdl for downloading videos - display download status or bar
 #use mplayer for video playback - once video downloaded. 
