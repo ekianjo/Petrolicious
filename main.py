@@ -5,11 +5,16 @@ import youtube-dl
     
 def get_logo():
   try:
-    logo=urllib('http://static.petrolicious.com/petrolicious/images/about_horizontallogo.png')
-    #save logo locally
+    if logoispresent:
+        return True
+    else:
+        logo=urllib('http://static.petrolicious.com/petrolicious/images/about_horizontallogo.png')
+        #save logo locally
+        return True
   
   except:
     print 'could not get logo'
+    return False
 
 
 
