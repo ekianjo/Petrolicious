@@ -25,6 +25,11 @@ def get_logo():
 
 #1. Logo
 #2. fade in tagline below Logo
+
+#get list and links of latest youtube videos in channel
+#get pictures/thumbnails from each video
+
+
 #3. fade out and fade on interface - it displays the liat of latest videos, along with small screenshot. 'Play' button appears on the right of videos already downloaded
 #4. use D-pad to move up or down in the list.
 #5. click on button -> fade out
