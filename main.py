@@ -1,6 +1,12 @@
 import urllib
 import youtube-dl
 
+requestapi="https://gdata.youtube.com/feeds/api/users/petroliciousCo/uploads/?alt=json"
+#command to get json data from request api
+jstr = json.loads(my_string)
+if jstr.get('attributetolookfor'):
+    pass
+
 
     
 def get_logo():
