@@ -2,8 +2,13 @@ import urllib
 import youtube-dl
 
 requestapi="https://gdata.youtube.com/feeds/api/users/petroliciousCo/uploads/?alt=json"
+
+
+json_data=open('json_data')
 #command to get json data from request api
-jstr = json.loads(my_string)
+jstr = json.loads(json_data)
+print data["feed"]["entry"]["link"][0]
+
 if jstr.get('attributetolookfor'):
     pass
 
