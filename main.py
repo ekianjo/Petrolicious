@@ -29,6 +29,12 @@ def get_logo():
 
 
 
+#how to control mplyaer
+import subprocess
+player = subprocess.Popen(["mplayer", "song.mp3", "-ss", "30"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+#to stop mplayer
+player.stdin.write("q")
+
     
 #Start with simple application
 
