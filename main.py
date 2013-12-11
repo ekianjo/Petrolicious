@@ -1,5 +1,6 @@
-import urllib
-import youtube-dl
+import urllib #to download some specific elements
+import youtube-dl #for downloading youtube videos
+import subprocess #for mplayer
 
 requestapi="https://gdata.youtube.com/feeds/api/users/petroliciousCo/uploads/?alt=json"
 
@@ -12,7 +13,7 @@ print data["feed"]["entry"]["link"][0]
 if jstr.get('attributetolookfor'):
     pass
 
-
+#find free music to use for this application
     
 def get_logo():
   try:
