@@ -36,6 +36,10 @@ player = subprocess.Popen(["mplayer", "song.mp3", "-ss", "30"], stdin=subprocess
 #to stop mplayer
 player.stdin.write("q")
 
+
+#to play without border decorations
+mplayer -noborder my_video.ogg
+
     
 #Start with simple application
 
