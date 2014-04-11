@@ -4,6 +4,8 @@ import subprocess #for mplayer
 
 requestapi="https://gdata.youtube.com/feeds/api/users/petroliciousCo/uploads/?alt=json"
 
+#make a generic JSON loading function for X parameters. 
+
 
 json_data=open('json_data')
 #command to get json data from request api
