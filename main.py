@@ -2,7 +2,24 @@ import urllib #to download some specific elements
 import youtube-dl #for downloading youtube videos
 import subprocess #for mplayer
 
+#FLOW of the program
+#Use pygame for display
+#get fullscreen mode
+#check if logo is available. If not, download it.
+#check if online.
+#fetch the list of youtube episodes if online along with the preview screen. if offline, use whatever is available to display. 
+#if there is nothing to display, exit the program and ask the user to go online first.
+#1. Display Logo with fading
+#2. Fade to Menu with Music
+#3. Display list of episodes.
+#4. scrolling in the list should display the youtube preview. 
+#5. clicking on an episode will start downloading it. 
+#6. clicking again on a episode downloading will pause it.
+#7. clicking on a episode already downloaded will stop the music and go to run the video in full screen.
+#8. (filter to be added later)
+
 requestapi="https://gdata.youtube.com/feeds/api/users/petroliciousCo/uploads/?alt=json"
+#this needs to be changed to meet v3 requirements
 
 #make a generic JSON loading function for X parameters. 
 
